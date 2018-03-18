@@ -7,7 +7,7 @@ function greaterNum(num1, num2) {
     return num2;
   }
 }
-console.log(reaterNum(10, 1));
+console.log(greaterNum(10, 1));
 
 function helloWorld(lang) {
   if (lang == 'en') {

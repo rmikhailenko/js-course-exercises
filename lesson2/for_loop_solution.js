@@ -9,10 +9,13 @@ function numberGenerator() {
       result = rand + ' нечетное';
     }
   }
-  return result;
+  console.log(result);
+  console.log(result);
+  console.log(result);
+  console.log(result);
+  console.log(result);
 }
-
-console.log(numberGenerator());
+  //numberGenerator();
 
 function multiplicationTable() {
 }
