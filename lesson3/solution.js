@@ -13,19 +13,21 @@ return false;
 hasRepeatingElements([1,2,3,4,5,6]);
 
 
-var arr = [1,2,0,-1,2,-3];
+var arr = [1, 2, 0, -1, 2, -3];
+
 function negativeElementsSum(arr) {
-var n = arr.length;
-var result;
-  for (var i = 1; i < n; i++) {
+  var n = arr.length;
+  var result = 0;
+  var firstElement = arr.indexOf(0);
+  console.log(firstElement);
+  for (var i = firstElement + 1; i < n; i++) {
     if (arr[i] < 0) {
-      console.log(arr[i]);
+      result += arr[i];
     }
   }
   return result;
 }
-negativeElementsSum([1,-2,3,-4,5,-6]);
-
+negativeElementsSum(arr);
 function commonElements() {
 }
 
