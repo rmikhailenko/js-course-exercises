@@ -11,10 +11,8 @@ var n = arr.length;
 return false;
 }
 hasRepeatingElements([1,2,3,4,5,6]);
-
-
+//------------------------------------------------------------------------------
 var arr = [1, 2, 0, -1, 2, -3];
-
 function negativeElementsSum(arr) {
   var n = arr.length;
   var result = 0;
@@ -27,9 +25,26 @@ function negativeElementsSum(arr) {
   }
   return result;
 }
-negativeElementsSum(arr);
-function commonElements() {
-}
+  negativeElementsSum(arr);
+//------------------------------------------------------------------------------
+var arr1 = [1,'a',2,3];
+var arr2 = ['a','b',2,'c'];      result += arr[i];
 
+function commonElements(arr1, arr2) {
+  var m = arr1.length;
+  var n = arr2.length;
+  var arr3 = [];
+  for (var i = 0; i < m; i++) {
+    for (var j = 0; j < n; j++) {
+      if (arr1[i] == arr2[j]) {
+        arr3.push(arr1[i])
+      }
+    }
+}
+return arr3;
+}
+commonElements(['a','b',2,'c'], [1,'a',2,3]);
+//------------------------------------------------------------------------------
 function identityMatrix() {
+
 }
