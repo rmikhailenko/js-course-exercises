@@ -28,7 +28,7 @@ function negativeElementsSum(arr) {
   negativeElementsSum(arr);
 //------------------------------------------------------------------------------
 var arr1 = [1,'a',2,3];
-var arr2 = ['a','b',2,'c'];      result += arr[i];
+var arr2 = ['a','b',2,'c'];
 
 function commonElements(arr1, arr2) {
   var m = arr1.length;
